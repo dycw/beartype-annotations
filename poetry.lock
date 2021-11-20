@@ -1,0 +1,25 @@
+[[package]]
+name = "beartype"
+version = "0.9.1"
+description = "Unbearably fast runtime type checking in pure Python."
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.extras]
+all = ["typing-extensions (>=3.10.0.0)"]
+dev = ["coverage (>=5.5)", "sphinx", "typing-extensions", "mypy (>=0.800)", "numpy", "pytest (>=4.0.0)", "tox (>=3.20.1)", "sphinx (>=4.1.0)"]
+doc-rtd = ["sphinx (==4.1.0)", "sphinx-rtd-theme (==0.5.1)"]
+test-tox = ["sphinx", "typing-extensions", "mypy (>=0.800)", "numpy", "pytest (>=4.0.0)"]
+test-tox-coverage = ["coverage (>=5.5)"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "899eeebdfb2d3ed88ea716a01447037359fd6f143ded6c9b76991f28c77cc67a"
+
+[metadata.files]
+beartype = [
+    {file = "beartype-0.9.1-py3-none-any.whl", hash = "sha256:fb23f59b709dd29c4bff25ede0969cdd76aa7e7812abef704d08007ea07372e0"},
+    {file = "beartype-0.9.1.tar.gz", hash = "sha256:623630dc243b0da5a84f0fa414e6aaaf2613e567ad19abfe6a81c17ea5ab62f1"},
+]
