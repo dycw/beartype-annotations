@@ -4,4 +4,4 @@ Testing `beartype` with `from __future__ import annotations`.
 
 ## Installation
 
-Use `poetry`, and then `pytest -f`.
+Install using `poetry`, and then `pytest -f`.
